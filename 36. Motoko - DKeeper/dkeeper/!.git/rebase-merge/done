@@ -1,0 +1,4 @@
+pick cc5c4557b4f3e1f300bb498ecdde45ccb02d2332 Implemented Keeper App
+pick 7075ec63c101369cfa534a9c642116e67e6cbc2b Implement motoko backend
+
+r cc5c455 "Implement Keeper App frontend with React"

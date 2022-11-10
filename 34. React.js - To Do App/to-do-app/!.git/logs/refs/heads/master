@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 730e6ed96dc0fa11a22dbd1cc681d8a2dea4f589 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666027043 +0800	commit (initial): Initialize project using Create React App
+730e6ed96dc0fa11a22dbd1cc681d8a2dea4f589 4005d82cf163c090dbf3443d045364511c6073bf PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666027332 +0800	commit: Initial commit
+4005d82cf163c090dbf3443d045364511c6073bf cd386739430429647fcbda1a7f1eb3ac66d347e2 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666027581 +0800	commit: Decouple component tree
+cd386739430429647fcbda1a7f1eb3ac66d347e2 51cbc0360ae923f8b5f942c08890db7ab4ae9d66 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666027876 +0800	commit: Implement item strike out on click
+51cbc0360ae923f8b5f942c08890db7ab4ae9d66 8d78bf0ff07e2e25153f76da6ec1617634ef6af1 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666029996 +0800	commit: Implement delete item functionality
+8d78bf0ff07e2e25153f76da6ec1617634ef6af1 015a95df107548ed0029d340e02a8a256be899d9 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666030180 +0800	commit (amend): Implement delete item functionality
+015a95df107548ed0029d340e02a8a256be899d9 888ff47a025a1e421dae03e81de3f716c9b31a40 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666030212 +0800	commit (amend): Implement delete item functionality
+888ff47a025a1e421dae03e81de3f716c9b31a40 bf9b04fbfcc68d31d5b2e66e49ca553a4a7f95ce PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666031277 +0800	commit: Decouple input area into component
