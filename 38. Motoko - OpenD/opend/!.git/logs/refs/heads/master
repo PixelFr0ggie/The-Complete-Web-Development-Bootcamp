@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 d14b99e81c2a9b9efaedf128d2c6d9d313f7e03d PixelFr0ggie <PixelFr0ggie.work@gmail.com> 1668569320 +0800	commit (initial): Initial commit. Implement NFT minting with backend and frontend
+d14b99e81c2a9b9efaedf128d2c6d9d313f7e03d c1047976713ce0d1ee6db8e16d79e7017b1562bf PixelFr0ggie <PixelFr0ggie.work@gmail.com> 1668688825 +0800	commit: Implement NFT ownership display via React Router
+c1047976713ce0d1ee6db8e16d79e7017b1562bf 005a56e2905e1258480e95bc448b57bb232c95b8 PixelFr0ggie <PixelFr0ggie.work@gmail.com> 1668708475 +0800	commit: Implement NFT listing for sale
+005a56e2905e1258480e95bc448b57bb232c95b8 eeb0a53cab6ff28230784b613e9fa43efdeb3b5d PixelFr0ggie <PixelFr0ggie.work@gmail.com> 1668740051 +0800	commit (amend): Implement NFT listing for sale
+eeb0a53cab6ff28230784b613e9fa43efdeb3b5d 7574f66a1b61e3a0a1a3fa832c840cc1ff870740 PixelFr0ggie <PixelFr0ggie.work@gmail.com> 1668740143 +0800	commit (amend): Implement NFT listing for sale
+7574f66a1b61e3a0a1a3fa832c840cc1ff870740 6231347212f2b5b7add8c17393cfbd0121783d63 PixelFr0ggie <PixelFr0ggie.work@gmail.com> 1668793444 +0800	commit: Create Discover page
+6231347212f2b5b7add8c17393cfbd0121783d63 9176c6d03ec21c0b2fccd1fc38f7408c073c2dfc PixelFr0ggie <PixelFr0ggie.work@gmail.com> 1668797586 +0800	commit: Implement NFT buying
