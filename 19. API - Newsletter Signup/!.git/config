@@ -6,5 +6,5 @@
 	symlinks = false
 	ignorecase = true
 [remote "heroku"]
-	url = https://git.heroku.com/desolate-hamlet-07690.git
+	url = https://git.heroku.com/tcwdb-newsletter-signup.git
 	fetch = +refs/heads/*:refs/remotes/heroku/*

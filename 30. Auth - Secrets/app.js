@@ -10,6 +10,7 @@ const passportLocalMongoose = require("passport-local-mongoose");
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 app.set('view engine', 'ejs');
@@ -26,7 +27,8 @@ app.use(session({
 app.use(passport.initialize({}));
 app.use(passport.session({}));
 
-mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true});
+// mongoose.connect("mongodb://localhost:27017/userDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://Aidan:Test123@cluster0.urhid4g.mongodb.net/userDB?retryWrites=true&w=majority", {useNewUrlParser: true});
 
 const userSchema = new mongoose.Schema ({
     email: String,
@@ -174,6 +176,6 @@ app.post("/submit", function(req, res) {
     });
 });
 
-app.listen(3000, function() {
+app.listen(port, function() {
     console.log("Server started on port 3000.");
 });

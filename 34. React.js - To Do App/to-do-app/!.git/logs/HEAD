@@ -6,3 +6,4 @@ cd386739430429647fcbda1a7f1eb3ac66d347e2 51cbc0360ae923f8b5f942c08890db7ab4ae9d6
 8d78bf0ff07e2e25153f76da6ec1617634ef6af1 015a95df107548ed0029d340e02a8a256be899d9 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666030180 +0800	commit (amend): Implement delete item functionality
 015a95df107548ed0029d340e02a8a256be899d9 888ff47a025a1e421dae03e81de3f716c9b31a40 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666030212 +0800	commit (amend): Implement delete item functionality
 888ff47a025a1e421dae03e81de3f716c9b31a40 bf9b04fbfcc68d31d5b2e66e49ca553a4a7f95ce PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1666031277 +0800	commit: Decouple input area into component
+bf9b04fbfcc68d31d5b2e66e49ca553a4a7f95ce 104f460b0b13208babf463890967e464a45e7ae4 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1670457999 +0800	commit: Implement Node backend for Heroku deployment

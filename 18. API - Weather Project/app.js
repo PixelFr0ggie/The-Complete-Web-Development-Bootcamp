@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded( { extended: true } ));
 
@@ -31,19 +31,28 @@ app.post("/", (req, res) => {
       const weatherData = JSON.parse(data);
       // console.log(weatherData);
 
-      const temp = weatherData.main.temp;
-      // console.log(temp);
+      if (response.statusCode < 400) {
+        const temp = weatherData.main.temp;
+        // console.log(temp);
 
-      const weatherDesc = weatherData.weather[0].description;
-      // console.log(weatherDesc);
+        const weatherDesc = weatherData.weather[0].description;
+        // console.log(weatherDesc);
 
-      const icon = weatherData.weather[0].icon;
-      const iconURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png"
+        const icon = weatherData.weather[0].icon;
+        const iconURL = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
 
-      res.write("<h1> The weather is currently " + weatherDesc + " </h1>");
-      res.write("<h1> The temperature in " + query + " is " + temp + " degrees Celcius. </h1>");
-      res.write("<img src=" + iconURL + ">");
-      res.send();
+        res.write("<h1> The weather is currently " + weatherDesc + " </h1>");
+        res.write("<h1> The temperature in " + query + " is " + temp + " degrees Celcius. </h1>");
+        res.write("<img src=" + iconURL + ">");
+        res.send();
+
+      } else {
+
+        res.redirect("/");
+      }
+
+
+
 
     });
   });

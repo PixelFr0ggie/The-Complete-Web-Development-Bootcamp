@@ -7,3 +7,5 @@ b704f223963c9a421de6e7d215a803782f7ca50c 2307cde22b9362ae57c7a1af2595c12ba9e7c36
 2307cde22b9362ae57c7a1af2595c12ba9e7c367 8981382470054331aed5251954426c482aad86e0 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1663853591 +0800	commit (amend): Merge branch 'master' of https://git.heroku.com/tcwdb-blog-project
 8981382470054331aed5251954426c482aad86e0 f553f06738115e1ad7450a5453986698e8e4dd90 PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1663853619 +0800	commit: Updated footer
 f553f06738115e1ad7450a5453986698e8e4dd90 88c8a1ab25e78840136606aaa7f91812102cd0ff PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1663853637 +0800	pull heroku master: Merge made by the 'ort' strategy.
+88c8a1ab25e78840136606aaa7f91812102cd0ff ef1ca7553c9356502adc3d7dca265beeacbad04d PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1670362724 +0800	commit: Empty commit to redeploy to Heroku
+ef1ca7553c9356502adc3d7dca265beeacbad04d 5c02fc860d6e9877e2e1f295b2da0f50ab37daac PixelFr0ggie <pixelfr0ggie.work@gmail.com> 1670363061 +0800	commit: Trigger Heroku deploy after enabling collectstatic

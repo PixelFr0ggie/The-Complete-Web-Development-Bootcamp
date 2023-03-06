@@ -1,1 +1,14 @@
 Implement secrets submitting
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Thu Oct 6 15:04:27 2022 +0800
+#
+# On branch master
+# Changes to be committed:
+#	new file:   Procfile
+#	modified:   app.js
+#	modified:   package.json
+#	modified:   views/secrets.ejs
+#

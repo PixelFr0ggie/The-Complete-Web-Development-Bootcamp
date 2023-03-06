@@ -45,7 +45,6 @@ function App() {
   async function fetchData() {
 
     const notesArray = await dkeeper.readNotes();
-
     setNotes(notesArray);
 
   }

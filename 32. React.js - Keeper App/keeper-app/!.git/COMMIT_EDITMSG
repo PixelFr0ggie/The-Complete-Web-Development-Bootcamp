@@ -1,1 +1,15 @@
-Add material ui API for styling
+Implement Node backend for Heroku deployment
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Dec 7 20:56:26 2022 +0800
+#
+# On branch master
+# Changes to be committed:
+#	new file:   Procfile
+#	new file:   app.js
+#	modified:   package-lock.json
+#	modified:   package.json
+#	modified:   public/index.html
+#
